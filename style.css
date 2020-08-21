@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Josefin+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Josefin+Sans:ital,wght@1,500&family=Lato&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3{
+    font-family: 'Bangers', cursive;
+}
+h2{
+    font-family: 'Bangers', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+input{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20%;
+}
