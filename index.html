@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CGPA CALCULATOR </title>
+    <link href="style.css" rel="stylesheet"> 
+</head>
+
+<body>
+    
+
+<form id='form'>
+    <h1>CGPA CALCULATOR</h1>
+    <h3>Regulation</h3>
+    <select id='reg'>
+        <option value="2017">2017</option>
+    </select>
+    <h3>Department</h3>
+    <select id='dept'>
+        <option value="it">IT</option>
+        <option value="cse" disabled>CSE</option>
+        <option value="ece" disabled>ECE</option>
+        <option value="eee" disabled>EEE</option>
+        <option value="civil" disabled>CIVIL</option>
+        <option value="mech" disabled>MECH</option>
+    </select>
+    <h3>Semester</h3>
+    <select name="sem" id='sem'>
+        <option value="1">1st semester</option>
+        <option value="2">2nd semester</option>
+        <option value="3">3rd semester</option>
+        <option value="4">4th semester</option>
+        <option value="5">5th semester</option>
+        <option value="6">6th semester</option>
+        <option value="7">7th semester</option>
+        <option value="8">8th semester</option>
+    </select>
+    <br><br>
+    <input type="submit" value="SUBMIT" id='sub'>
+    </form>
+    <br><br>
+    <footer>&copy; 2020 S. Gowtham, T. Raagul. All Rights Reserved</footer>
+    <br>
+    <script>
+        const form=document.getElementById('form')
+        form.addEventListener('submit',function(event){
+            event.preventDefault();
+            const reg=document.getElementById('reg').value;
+            const dept=document.getElementById('dept').value;
+            const sem=document.getElementById('sem').value;
+            if(dept=='it' && sem=='1'){
+                window.location='it1.html'
+            }
+            else if(dept=='it' && sem=='2'){
+                document.write('it2.html')
+            }
+            else if(dept=='it' && sem=='3'){
+                document.write('it3.html')
+            }
+            else if(dept=='it' && sem=='4'){
+                document.write('it4.html')
+            }
+            else if(dept=='it' && sem=='5'){
+                document.write('it5.html')
+            }
+            else if(dept=='it' && sem=='6'){
+                document.write('hello')
+            }
+            else if(dept=='it' && sem=='7'){
+                document.write('hello')
+            }
+            else if(dept=='it' && sem=='8'){
+                document.write('hello')
+            }
+        })
+        
+    </script>
+</body>
+
+</html>
