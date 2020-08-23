@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=UTF-8>
+        <title>IT 8TH semester</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+       <form id='form'>
+        <h2>INFORMATION TECHNOLOGY <br>8TH SEMESTER </h2><br><br>
+        <h3>Professional Elective IV<br>Credit :3</h3>
+        <select id="g1">
+            <option value=10>O</option>
+            <option value=9>A+</option>
+            <option value=8>A</option>
+            <option value=7>B+</option>
+            <option value=6>B</option>
+            <option value=0>RA</option>
+        </select>
+        <h3>Professional Elective IV<br>Credit :3</h3>
+        <select id="g2">
+            <option value=10>O</option>
+            <option value=9>A+</option>
+            <option value=8>A</option>
+            <option value=7>B+</option>
+            <option value=6>B</option>
+            <option value=0>RA</option>
+        </select>
+        <h3>Project Work IT8811<br>Credit :3</h3>
+        <select id="g3">
+            <option value=10>O</option>
+            <option value=9>A+</option>
+            <option value=8>A</option>
+            <option value=7>B+</option>
+            <option value=6>B</option>
+            <option value=0>RA</option>
+           </select><br><br>
+        <input type="submit" value="Calculate"><br><br>
+       </form>
+       <div id='calc'></div>
+
+    <script>
+        const form=document.getElementById('form')
+        form.addEventListener('submit',function(event){
+            event.preventDefault();
+            const s1=document.getElementById('g1').value;
+            const s2=document.getElementById('g2').value;
+            const s3=document.getElementById('g3').value;
+            const ts1= s1 * 3;
+            const ts2=s2 * 3;
+            const ts3= s3 * 10;
+            const tc=16;
+            const gpa=(ts1+ts2+ts3)/tc;
+            document.getElementById('calc').innerHTML='CGPA is '+gpa
+        })
+        
+    </script>
+    </body>
+</html>
