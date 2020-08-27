@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="content">
+    <nav>
+      <div class="logo">CGPA Calculator</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="#form">Home</a></li>
+        <li><a href="#">CGPA</a></li>
+        <li><a href="#">Contribute</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+         <form id='form'>
+             <div class="box">
+                <br><br><h5>Regulation</h5><br>
+                <select id='reg'>
+                    <option value="2017">2017</option>
+                </select><br><br>
+                <h5>Department</h5><br>
+                <select id='dept'>
+                    <option value="it">IT</option>
+                    <option value="cse" disabled>CSE</option>
+                    <option value="ece" disabled>ECE</option>
+                    <option value="eee" disabled>EEE</option>
+                    <option value="civil" disabled>CIVIL</option>
+                    <option value="mech" disabled>MECH</option>
+                    <option value="bme" disabled>BME</option>
+                </select><br><br>
+                <h5>Semester</h5><br>
+                <select id='sem'>
+                    <option value="1">1st semester</option>
+                    <option value="2">2nd semester</option>
+                    <option value="3">3rd semester</option>
+                    <option value="4">4th semester</option>
+                    <option value="5">5th semester</option>
+                    <option value="6">6th semester</option>
+                    <option value="7">7th semester</option>
+                    <option value="8">8th semester</option>
+                </select></div>
+                <br><br>
+                <input type="submit" value="SUBMIT">
+            </form>
+            <br><br><br><h3>Want to contribute<h3><br>
+            <p>We made our website open source in github if you are ready to work with us or suggest any changes feel free to send a pull request <a href="https://github.com/gowtham758550/REG17-IT-CGPA-CALCULATOR-/tree/Beta">here</a>. We provide only a beta branch here to test. If you only have an idea or find an bugs here create an issue in <a href="https://github.com/gowtham758550/REG17-IT-CGPA-CALCULATOR-/">master</a>
+            branch. We will respond asap for your pull request and issues. Thank you. </p>
+    <br><br><p>&copy; 2020 Gowtham, Raagul, Sanjeevi. All Rights Reserved. </p></div>
+        <script src="main.js"></script>
+    </body>
+</html>
