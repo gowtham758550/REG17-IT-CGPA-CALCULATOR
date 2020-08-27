@@ -1,36 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Josefin+Sans:ital,wght@1,500&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Roboto+Slab&display=swap');
 
 body{
+    background-color: #ffffff;
     text-align: center;
-    font-family: 'Bangers', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-}
-h3{
-    font-size: 30px;
-    font-family: 'Dancing Script', cursive;
-}
-h2{
-    font-family: 'Bangers', cursive;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
-}
-input{
-    background-color: #000000;
-    color: #ffffff;
-    border-radius: 20%;
+    align-self: center;
+    align-items: center;
+    align-content: center;
 }
 
 .box select{
-    width: 100px;
+    font-size: 20px;
+    width: 200px;
     height: 50px;
     border: none;
-    background-color: #115DB3;
+    background-color: #7A14D5;
     color: #E8E8E8;
     box-shadow: 0px 5px 25px rgba(0,0,0,.5);
     -webkit-appearance: button;
     border-radius: 20px;
-    padding-left: 15px;
+    padding-left: 90px;
+}
+.box h3{
+    font-size: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+.box input{
+    font-size: 20px;
+    color: #7A14D5;
+    background-color: #ffffff ;
+    border-color: #7A14D5;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto Slab', serif;
 }
