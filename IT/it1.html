@@ -4,13 +4,15 @@
         <meta charset=UTF-8>
         <title>IT 1st semester</title>
         <link href="style.css" rel="stylesheet">
+          <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  
     </head>
 
     <body>
-       <form id='form'>
+       <form id="form">
+        <div class="box">
         <h2>INFORMATION TECHNOLOGY <br>1ST SEMESTER </h2><br><br>
         <h3>Communicative English HS8151<br>Credit :4</h3>
-        <div class="box">
         <select id="g1">
             <option value=10>O</option>
             <option value=9>A+</option>
@@ -82,12 +84,25 @@ Programming Laboratory GE8161<br>Credit :2</h3>
             <option value=7>B+</option>
             <option value=6>B</option>
             <option value=0>RA</option>
-        </select></box><br><br>
+        </select><br><br>
         <input type="submit" value="Calculate"><br><br>
        </form>
-       <div id='calc'></div>
+       <div id='calc'></div></div><br><br>
+       <p>&copy; 2020 Gowtham, Raagul, Sanjeevi. All Rights Reserved. </p>
 
     <script>
+    $(function(){
+     $('.card-name .card-input').html($('.card-list li:first-child').html());
+
+     $('.card-grp').click(function() {
+      $('.card-list').toggleClass('visible');
+    });
+
+     $('.card-list li').click(function() {
+      $('.card-list').removeClass('visible');
+      $('.card-input').html($(this).html());
+    });
+   });
         const form=document.getElementById('form')
         form.addEventListener('submit',function(event){
             event.preventDefault();
