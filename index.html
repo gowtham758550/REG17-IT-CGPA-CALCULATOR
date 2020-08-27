@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html>
-
-    <head>
-        <meta charset="UTF-8">
-        <title>CGPA CALCULATOR </title>
-        <link href="style.css" rel="stylesheet"> 
-    </head>
-
-    <body>
-        <div class='navbar'>
-            <a href="#home" class="logo">CGPA CALCULATOR</a>
-            <ul class='nav'>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#cgpa">CGPA</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-
-        <div class="banner-area" id="home">
-            
-        </div>
-        <div class="cgpa-area" id="cgpa">
-            <div class="text">
-                <h1>Calculator</h1>
-            </div>
-            <form id='form'>
-                <h3>Regulation</h3>
-                <div class="box"><select id='reg'>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <div class="logo">CGPA Calculator</div>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="#form">Home</a></li>
+        <li><a href="#">CGPA</a></li>
+        <li><a href="#">Contribute</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+         <form id='form'>
+             <div class="box">
+                <h5>Regulation</h5><br>
+                <select id='reg'>
                     <option value="2017">2017</option>
-                </select>
-                <h3>Department</h3>
+                </select><br><br>
+                <h5>Department</h5><br>
                 <select id='dept'>
                     <option value="it">IT</option>
                     <option value="cse" disabled>CSE</option>
@@ -39,8 +38,8 @@
                     <option value="civil" disabled>CIVIL</option>
                     <option value="mech" disabled>MECH</option>
                     <option value="bme" disabled>BME</option>
-                </select>
-                <h3>Semester</h3>
+                </select><br><br>
+                <h5>Semester</h5><br>
                 <select id='sem'>
                     <option value="1">1st semester</option>
                     <option value="2">2nd semester</option>
@@ -54,26 +53,11 @@
                 <br><br>
                 <input type="submit" value="SUBMIT">
             </form>
-        </div>
-        <div class="about-area" id="about">
-            <div class="text-part">
-                <h1>About Area</h1>
-                
-            </div>
-        </div>
-        <div class="contact-area" id="contact">
-            <div class="text-part">
-                <h1>Contact Area</h1>
-                
-            </div>
-        </div>
-
-        <br><br>
-        <footer>
-            <div class='footertext'>
-                &copy; 2020 All Rights Reserved
-            </div>
-        </footer>
+<<<<<<< ours
+            <br><br><br><h3>Want to contribute<h3><br>
+            <p>We made our website open source in github if you are ready to work with us or suggest any changes feel free to send a pull request <a href="https://github.com/gowtham758550/REG17-IT-CGPA-CALCULATOR-/tree/Beta">here</a>. We provide only a beta branch here to test. If you only have an idea or find an bugs here create an issue in <a href="https://github.com/gowtham758550/REG17-IT-CGPA-CALCULATOR-/">master</a>
+            branch. We will respond asap for your pull request and issues. Thank you. </p>
+    </div>
         <script src="main.js"></script>
     </body>
 </html>
