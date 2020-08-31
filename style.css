@@ -145,3 +145,9 @@ input[type="checkbox"]{
 .box h5{
     font-family: 'Inconsolata', monospace;
 }
+
+#footer{
+    font-weight: 600;
+    padding-left: 40%;
+
+}
