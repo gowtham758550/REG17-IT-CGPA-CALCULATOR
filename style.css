@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Londrina+Solid&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -113,16 +112,17 @@ input[type="checkbox"]{
   padding: 0 30px;
 }
 .content p{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Jaldi', sans-serif; 
     text-align: center;
 }
 .content a{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Jaldi', sans-serif;
     text-align: left;
 }
 .content h3{
-    font-family: 'Abril Fatface', cursive;
-    text-align: left;
+  font-family: 'Jaldi', sans-serif;
+  font-family: 'Londrina Solid', cursive;
+  text-align: left;
 }
 .content input{
     color: #7A14D5;
