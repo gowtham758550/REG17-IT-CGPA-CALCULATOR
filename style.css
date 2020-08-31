@@ -114,6 +114,7 @@ input[type="checkbox"]{
 }
 .content p{
     font-family: 'Indie Flower', cursive;
+    text-align: center;
 }
 .content a{
     font-family: 'Indie Flower', cursive;
