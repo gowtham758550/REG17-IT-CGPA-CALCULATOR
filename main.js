@@ -34,27 +34,157 @@ form.addEventListener('submit',function(event){
     // CSE
     if(dept=='cse'){
         if(sem=='1'){
-            window.location='cs1.html'
+            window.location='CSE/cse1.html'
         }
         else if(sem=='2'){
-            window.location='cs2.html'
+            window.location='CSE/cse2.html'
         }
         else if(sem=='3'){
-            window.location='cs3.html'
+            window.location='CSE/cse3.html'
         }
         else if(sem=='4'){
-            window.location='cs4.html'
+            window.location='CSE/cse4.html'
         }
         else if(sem=='5'){
-            window.location='cs5.html'
+            window.location='CSE/cse5.html'
         }
         else if(sem=='6'){
-            window.location='cs6.html'
+            window.location='CSE/cse6.html'
         }
         else if(sem=='7'){
-            window.location='cs7.html'
+            window.location='CSE/cse7.html'
         }
         else if(sem=='8'){
-            window.location='cs8.html'
+            window.location='CSE/cse8.html'
+        }}
+    //EEE
+    if(dept=='eee'){
+        if(sem=='1'){
+            window.location='EEE/eee1.html'
+        }
+        else if(sem=='2'){
+            window.location='EEE/eee2.html'
+        }
+        else if(sem=='3'){
+            window.location='EEE/eee3.html'
+        }
+        else if(sem=='4'){
+            window.location='EEE/eee4.html'
+        }
+        else if(sem=='5'){
+            window.location='EEE/eee5.html'
+        }
+        else if(sem=='6'){
+            window.location='EEE/eee6.html'
+        }
+        else if(sem=='7'){
+            window.location='EEE/eee7.html'
+        }
+        else if(sem=='8'){
+            window.location='EEE/eee8.html'
+        }}
+    //ECE
+    if(dept=='ece'){
+        if(sem=='1'){
+            window.location='ECE/ece1.html'
+        }
+        else if(sem=='2'){
+            window.location='ECE/ece2.html'
+        }
+        else if(sem=='3'){
+            window.location='ECE/ece3.html'
+        }
+        else if(sem=='4'){
+            window.location='ECE/ece4.html'
+        }
+        else if(sem=='5'){
+            window.location='ECE/ece5.html'
+        }
+        else if(sem=='6'){
+            window.location='ECE/ece6.html'
+        }
+        else if(sem=='7'){
+            window.location='ECE/ece7.html'
+        }
+        else if(sem=='8'){
+            window.location='ECE/ece8.html'
+        }}
+    //MECH
+    if(dept=='mech'){
+        if(sem=='1'){
+            window.location='MECH/mech1.html'
+        }
+        else if(sem=='2'){
+            window.location='MECH/mech2.html'
+        }
+        else if(sem=='3'){
+            window.location='MECH/mech3.html'
+        }
+        else if(sem=='4'){
+            window.location='MECH/mech4.html'
+        }
+        else if(sem=='5'){
+            window.location='MECH/mech5.html'
+        }
+        else if(sem=='6'){
+            window.location='MECH/mech6.html'
+        }
+        else if(sem=='7'){
+            window.location='MECH/mech7.html'
+        }
+        else if(sem=='8'){
+            window.location='MECH/mech8.html'
+        }}
+    //CIVIL 
+    if(dept=='civil'){
+        if(sem=='1'){
+            window.location='CIVIL/civil1.html'
+        }
+        else if(sem=='2'){
+            window.location='CIVIL/civil2.html'
+        }
+        else if(sem=='3'){
+            window.location='CIVIL/civil3.html'
+        }
+        else if(sem=='4'){
+            window.location='CIVIL/civil4.html'
+        }
+        else if(sem=='5'){
+            window.location='CIVIL/civil5.html'
+        }
+        else if(sem=='6'){
+            window.location='CIVIL/civil6.html'
+        }
+        else if(sem=='7'){
+            window.location='CIVIL/civil7.html'
+        }
+        else if(sem=='8'){
+            window.location='CIVIL/civil8.html'
+        }}
+    //BME
+    if(dept=='bme'){
+        if(sem=='1'){
+            window.location='BME/bme1.html'
+        }
+        else if(sem=='2'){
+            window.location='BME/bme2.html'
+        }
+        else if(sem=='3'){
+            window.location='BME/bme3.html'
+        }
+        else if(sem=='4'){
+            window.location='BME/bme4.html'
+        }
+        else if(sem=='5'){
+            window.location='BME/bme5.html'
+        }
+        else if(sem=='6'){
+            window.location='BME/bme6.html'
+        }
+        else if(sem=='7'){
+            window.location='BME/bme7.html'
+        }
+        else if(sem=='8'){
+            window.location='BME/bme8.html'
         }}
 })
